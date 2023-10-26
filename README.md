@@ -1,4 +1,7 @@
-# Login Registration Backend 
+# Tera technologies website
+-Login credentials
+=>email: info@tera.co  or info@teratech.co
+=>password:teratech
 
 Complete login registration backend system using Spring Boot.
 
@@ -22,13 +25,5 @@ Complete login registration backend system using Spring Boot.
 
 ### CURL
 ```
-curl --location --request POST 'localhost:8080/api/v1/registration' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "firstName": "Amigos",
-    "lastName": "Code",
-    "email": "hellow@amigoscode.com",
-    "password": "password"
-}'
-```
+
 
